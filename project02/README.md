@@ -13,6 +13,34 @@ Look up the corresponding probabilities for those next words
 Randomly select one next word using those probabilities
 Return the selected word
 
+
+generate_random_text
+     Set random number generator with seed
+     Determine the Markov model order at the time 
+     Create a starting state using “*S” order number
+     Set the current state to the start state
+     Create an empty list to store the generated random words
+
+     Create a loop:  
+           Pick the next word based on the current state
+	   If the next word equals “*E”
+	   Stop generating words
+	   If not,
+           Add the word to the list
+	   To move to the next state, update the current state by dropping the oldest word and shifting to add the new word 
+
+Join all the generated words to form a sentence
+Return the sentence
+
+Markov model for one fish two fish
+Create an empty Markov model
+Open the one_fish_two_fish.txt
+Create an empty string to store the text
+For each line in the file:
+       Remove extra whitespaces from the line
+	Add the line to the empty string
+Use the string to train the Markov model with an order of 3 	
+         
 Markov model for sonnet
 Create empty Markov model
 Open sonnets.txt
