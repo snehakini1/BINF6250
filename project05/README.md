@@ -1,5 +1,17 @@
 # Introduction
-Description of the project
+For this project, we used pairwise sequence alignment to implement a Smith-Waterman algorithm. 
+
+Pairwise sequence alignment is a technique used to compare two biological sequences, such as DNA, RNA, or proteins to identify regions of similarity that can then be used to observe functional relationships. 
+
+This implmentation of the Smith-Waterman algorithm uses a dynamic programming approach for llocal sequence alignment, and breaks the problem into smaller subproblems and stores their solutions to avoid redundant computation, reducing time complexity significantly.
+
+The implementation is organized into three core functions:
+
+cal_score: calculates the score for each cell in the scoring matrix
+traceback: reconstructs the optimal local alignment by tracing back through the matrix from the highest score
+smith_waterman: the main function, accepts two sequences and customizable scoring parameters for matches, mismatches, and gaps
+
+The algorithm was tested using the DNA sequences TACTTAG and CACATTAA to verify that the scoring matrix is correctly populated and that the traceback accurately reconstructs the optimal local alignment.
 
 # Pseudocode
 Put pseudocode in this box:
