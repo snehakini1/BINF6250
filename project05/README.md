@@ -75,7 +75,7 @@ Our group struggled with meeting together due to midterm exams and travel during
 # Personal Reflections
 ## Group Leader
 Group leader's reflection on the project
-I was having a bit of a hard time grasping how exactly this algorithm worked, specifically with the concept of diagonal, up, and left scores. After working through the psuedocode, I got a much better understanding on what these meant and how to go about computing each of the scores/penalities. The most difficult part of this project for me was the traceback logic, because it was hard to think about the problem in reverse. I am overall proud of the result of this project as I feel like I learned a lot about how the Smith-Waterman algorithm works and how to implement it. 
+Sneha: I was having a bit of a hard time grasping how exactly this algorithm worked, specifically with the concept of diagonal, up, and left scores. After working through the psuedocode, I got a much better understanding on what these meant and how to go about computing each of the scores/penalities. The most difficult part of this project for me was the traceback logic, because it was hard to think about the problem in reverse. I am overall proud of the result of this project as I feel like I learned a lot about how the Smith-Waterman algorithm works and how to implement it. 
 
 ## Other member
 Other members' reflections on the project
