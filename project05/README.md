@@ -92,5 +92,7 @@ Sneha: I was having a bit of a hard time grasping how exactly this algorithm wor
 ## Other member
 Fardina Tabassum - This project was interesting to me. I came in with some familiarity from Genomics in basic sequence features like start and stop codons from identifying ORFs, but transitioning to a dynamic programming approach proved challenging. I initially struggled to grasp how the scoring matrix uses a zero floor to prevent negative values, which is a critical local alignment rule that distinguishes it from global alignment. The traceback process was another area where I struggled. In Genomics, we looked at sequences as static objects, but here I had to learn how to move backward through a matrix of directions to reconstruct an alignment from the peak similarity score back to the origin. Ultimately, this project was a challenging shift from scanning for motifs to calculating optimal pathways, but it gave me a much deeper insight into the mathematical understanding behind tools that use these algorithms.
 
+Ngoc Linh Nguyen - This project was a breather in terms of programming complexity as we used toy data with a known answer to validate against. Ultimately I think the strength of this is that it provides a clean and readable illustrative implementation to learn about the scoring algorithm which can be a little conceptually difficult to grasp.  
+
 # Generative AI Appendix
 As per the syllabus
