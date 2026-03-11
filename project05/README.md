@@ -90,7 +90,7 @@ Group leader's reflection on the project
 Sneha: I was having a bit of a hard time grasping how exactly this algorithm worked, specifically with the concept of diagonal, up, and left scores. After working through the psuedocode, I got a much better understanding on what these meant and how to go about computing each of the scores/penalities. The most difficult part of this project for me was the traceback logic, because it was hard to think about the problem in reverse. I am overall proud of the result of this project as I feel like I learned a lot about how the Smith-Waterman algorithm works and how to implement it. 
 
 ## Other member
-Other members' reflections on the project
+Fardina Tabassum - This project was interesting to me. I came in with some familiarity from Genomics in basic sequence features like start and stop codons from identifying ORFs, but transitioning to a dynamic programming approach proved challenging. I initially struggled to grasp how the scoring matrix uses a zero floor to prevent negative values, which is a critical local alignment rule that distinguishes it from global alignment. The traceback process was another area where I struggled. In Genomics, we looked at sequences as static objects, but here I had to learn how to move backward through a matrix of directions to reconstruct an alignment from the peak similarity score back to the origin. Ultimately, this project was a challenging shift from scanning for motifs to calculating optimal pathways, but it gave me a much deeper insight into the mathematical understanding behind tools that use these algorithms.
 
 # Generative AI Appendix
 As per the syllabus
